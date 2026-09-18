@@ -73,6 +73,10 @@ body{
   align-items:stretch;
 }
 
+.projects-two{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+
 .project-card{
   width:100%;
   min-height:300px;
@@ -153,6 +157,10 @@ body{
   .page{
     width:min(100% - 22px, 1080px);
     padding-top:42px;
+  }
+
+  .projects-two{
+    grid-template-columns:1fr;
   }
 
   .project-card{
